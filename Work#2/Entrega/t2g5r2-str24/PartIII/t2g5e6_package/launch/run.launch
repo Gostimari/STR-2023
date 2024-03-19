@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="t2g5e6_package" type="t2g5e6_package_node" name="t2g5e6_package_node"/>
+
+    <node pkg="rosbag" type="play" name="rosbag_play" args="$(find t2g5e6_package)/bag/2017-10-31-22-06-52.bag"/>
+    
+    <node pkg="rviz" type="rviz" name="rviz"
+        args="-d $(find t2g5e6_package)/rviz/default.rviz"
+    />
+
+</launch>

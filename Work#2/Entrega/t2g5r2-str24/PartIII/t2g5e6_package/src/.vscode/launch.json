@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/media/gamedisk/Documentos/UC/7ºMatricula/STR/TP2/Entrega/t2g5r2-str24/PartIII/t2g5e6_package/src",
+      "program": "/media/gamedisk/Documentos/UC/7ºMatricula/STR/TP2/Entrega/t2g5r2-str24/PartIII/t2g5e6_package/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
